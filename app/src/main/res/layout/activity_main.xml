@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:padding="10dp"
         android:textAlignment="textEnd"
-        android:textColor="#A6A6A6A"
+        android:textColor="@color/grey"
         android:textSize="34sp"/>
 
     <TextView
