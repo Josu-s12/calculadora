@@ -259,7 +259,7 @@
             android:layout_columnWeight="2"
             android:backgroundTint="@color/orange"
             android:layout_margin="3dp"
-            android:onClick="selecNumero"
+            android:onClick="igual"
             android:text="="
             android:textSize="30sp"
             android:background="@drawable/btn_orange"/>

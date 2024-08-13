@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
         tvResult = findViewById(R.id.tvResult)
     }
 
-    fun cambiarOperador(b: View){
+    fun CambiarOperador(b: View){
         if (tvTemp.text.isNotEmpty() || primerNumero.toString()!="NaN"){
 
             calcular()
@@ -79,7 +79,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun seleccionarNumero(b : View){
+    fun selecNumero(b : View){
         val boton : Button = b as Button
         tvTemp.text = tvTemp.text.toString() + boton.text.toString()
     }
@@ -104,7 +104,7 @@ class MainActivity : AppCompatActivity() {
                 tvTemp.text = ""
                 tvResult.text = ""
             }
-        } else if (boton.text.toString().trim() == "CA"){
+        } else if (boton.text.toString().trim() == "AC"){
             primerNumero = Double.NaN
             segundoNumero = Double.NaN
             tvTemp.text = ""
